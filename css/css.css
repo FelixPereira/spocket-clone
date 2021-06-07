@@ -1,0 +1,258 @@
+/* presets */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+p{
+    font-size: 16px;
+    color: #222939;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.btn{
+    color: #fff;
+    background-color: #8144e5;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #7431E2;
+    box-shadow: #7531e231 1px 1px 3px 2px;
+    transition: .5s;
+}
+
+.container{
+    padding: 0 calc((100% - 1200px) / 2);
+}
+
+
+/* End presets*/
+
+/* Estilizando  a primeira secção*/
+    /* Estilizando a navegação*/
+
+.cabecalho-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecalho_menu-item{
+    list-style: none;
+}
+
+.cabecalho_menu-item a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .7;
+    color: #222939;
+}
+
+.cabecalho-nav{
+    width: 60%;
+}
+
+.cabecalho-logo{
+  
+}
+
+.cabecalho-cta{
+    width: 15%;
+}
+
+.cabecalho_cta-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-container{
+    background-color: #F7FAFF;
+}
+
+.cabecalho_menu-item-cta a{
+    color: #fff;
+    background-color: #8144e5;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.cabecalho_menu-item-cta a:hover{
+    background-color: #7431E2;
+    box-shadow: #7531e231 1px 1px 3px 2px;
+    transition: .5s;
+}
+
+.cabecalho_menu-item-cta{
+    list-style: none;
+}
+
+    /* Estilizando a navegação end*/
+
+    /* Estilizando o texto e img do hero*/
+
+.hero{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 48%;
+}
+
+.hero-img{
+    width: 52%;
+}
+
+
+.hero-img img{
+    margin-top: -170px;
+    width: 100%;
+
+  
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.title-roxo{
+    color: #8144e5;
+    text-decoration: underline;
+}
+
+.hero-paragraph{
+    margin-bottom: 35px;
+}
+
+.btn-submit{
+    border: none;
+    margin-left: -15px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    width: 30%;
+}
+.btn-submit:hover{
+    cursor: pointer;
+}
+.input-email{
+    width: 50%;
+    border: #ccc solid 1px;
+    box-shadow: #7531e231 1px 1px 15px 2px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 25px 20px;
+}
+
+.hero-form input{
+    margin-bottom: 25px;
+}
+
+.input-email:focus{
+    border-color: rgb(56, 152, 236);
+    outline: 0;
+}
+
+.card-request{
+    display: flex;
+}
+
+.card-text{
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #6C717D;
+}
+
+    /* Estilizando o texto e img do hero end*/
+
+    /* Estilizando a secção dos logos*/
+
+.brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    padding-bottom: 50px;
+
+}
+
+.brands-list{
+    display: flex;
+}
+
+.brands_list-item{
+    list-style: none;
+}
+
+.brands_list-item img{
+    width: 180px;
+}
+
+.brands-title{
+    font-weight: 900;
+
+}
+    /* Estilizando a secção dos logos end*/
+/* Estilizando  a primeira secção end*/
+
+/* Estilizando a segunda secção*/
+
+.second-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.second_section-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.second_section-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.second_section-img{
+    width: 50%;
+}
+
+.second_section-img img{
+    width: 100%;
+}
+
+.second_section-text{
+    width: 50%;
+}
+
+
+/* Estilizando a segunda secção end*/
+
+
+

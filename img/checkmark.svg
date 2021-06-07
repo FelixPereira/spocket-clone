@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon-checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="influencer-copy-5" transform="translate(-100.000000, -552.000000)" fill-rule="nonzero">
+            <g id="icon-checkmark" transform="translate(100.000000, 552.000000)">
+                <path d="M2.4424734,13.7543319 C0.362846733,11.7457613 -0.471190938,8.77137111 0.260923431,5.97437063 C0.993037799,3.17737016 3.17737016,0.993037799 5.97437063,0.260923431 C8.77137111,-0.471190938 11.7457613,0.362846733 13.7543319,2.4424734 C16.7860717,5.58146523 16.7427135,10.57105 13.6568817,13.6568817 C10.57105,16.7427135 5.58146523,16.7860717 2.4424734,13.7543319 L2.4424734,13.7543319 Z" id="Path" fill="#E5FBEC"></path>
+                <polygon id="Path" fill="#33845E" points="4.7 7.29 7 9.6 11.3 5.3 12.7 6.72 7 12.4 3.3 8.7"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
