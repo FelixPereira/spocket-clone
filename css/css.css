@@ -414,6 +414,7 @@ p{
     font-weight: 600;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .integration_brands-list li{
@@ -424,10 +425,13 @@ p{
     transition: .5s;
 }
 
+.integration_brands-list a{
+    text-decoration: none;
+}
+
 .integration_brands-list li:hover{
     box-shadow: 0px 0px 30px 1px #363f4e3b;
 }
-
 
 
 .integration_brands-list{
