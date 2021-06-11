@@ -381,5 +381,19 @@ p{
 
 /* Estilizando a quarta secção end*/
 
+/* Estilizando a quinta secção end*/
 
+.fifth-section{
+    display: flex;
+    justify-content: space-between;
+}
 
+.integration-text{
+    width: 40%;
+}
+
+.integration-brands{
+    width: 60%;
+}
+
+/* Estilizando a quinta secção end*/
