@@ -405,7 +405,43 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
-    grid-template-areas: ". shopify wix" "woocommerce bigcommerce allscraper" "felx squarespace ecwid";
+    grid-template-areas: ". shopify wix" "woocommerce bigcommerce allscraper" "felex squarespace ecwid";
 }
+
+.shopify{
+    grid-area: shopify;
+}
+
+.wix{
+    grid-area: wix;
+}
+
+.woocommerce{
+    grid-area: woocommerce;
+}
+
+.bigcommerce{
+    grid-area: bigcommerce;
+}
+
+.allscraper{
+    grid-area: allscraper;
+}
+
+.felex{
+    grid-area: felex;
+}
+
+.squarespace{
+    grid-area: squarespace;
+}
+
+.ecwid{
+    grid-area: ecwid;
+}
+
+
+
+
 
 /* Estilizando a quinta secção end*/
