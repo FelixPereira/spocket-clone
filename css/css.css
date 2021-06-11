@@ -263,6 +263,11 @@ p{
 .second_section-link{
     color: #7938E3;
     font-weight: 600;
+    background-image: url(../img/seta.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 25px;
+    padding-right: 30px;
 }
 
 /* Estilizando a segunda secção end*/
