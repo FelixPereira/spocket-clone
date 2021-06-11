@@ -386,6 +386,7 @@ p{
 .fifth-section{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .integration-text{
@@ -400,11 +401,40 @@ p{
     width: 60%;
 }
 
+.integration-brands h3{
+    font-size: 16px;
+    margin: 10px 0 20px;
+}
+
+.integration-button{
+    color: #8144e5;
+    background-color: #e9e6ff;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.integration_brands-list li{
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 1px #363f4e18;
+    transition: .5s;
+}
+
+.integration_brands-list li:hover{
+    box-shadow: 0px 0px 30px 1px #363f4e3b;
+}
+
+
+
 .integration_brands-list{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    gap: 50px;
     grid-template-areas: ". shopify wix" "woocommerce bigcommerce allscraper" "felex squarespace ecwid";
 }
 
