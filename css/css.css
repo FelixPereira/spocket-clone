@@ -36,6 +36,10 @@ p{
     padding: 0 calc((100% - 1200px) / 2);
 }
 
+.title{
+    font-size: 32px;
+    font-weight: 900;
+}
 
 /* End presets*/
 
@@ -131,7 +135,6 @@ p{
     margin-top: -170px;
     width: 100%;
 
-  
 }
 
 .hero-title{
@@ -240,8 +243,7 @@ p{
 }
 
 .second_section-title{
-    font-size: 32px;
-    font-weight: 900;
+
 }
 
 .second_section-img{
