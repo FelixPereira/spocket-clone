@@ -392,8 +392,20 @@ p{
     width: 40%;
 }
 
+.integration-title{
+    font-size: 56px;
+}
+
 .integration-brands{
     width: 60%;
+}
+
+.integration_brands-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-areas: ". shopify wix" "woocommerce bigcommerce allscraper" "felx squarespace ecwid";
 }
 
 /* Estilizando a quinta secção end*/
