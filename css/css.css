@@ -350,10 +350,27 @@ p{
     margin-bottom: 30px;
 }
 
+.drop_business-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.drop_business-list li{
+    padding-right: 30px;
+}
+
+
 .text-destaque{
     color: #8144e5;
     text-decoration: underline;
 }
+
+.drop-title{
+    font-size: 18px;
+    text-align: left;
+}
+
 
 .drop_text{
     text-align: left;
@@ -361,6 +378,7 @@ p{
     line-height: 24px;
     margin-top: 10px;
 }
+
 /* Estilizando a quarta secção end*/
 
 
