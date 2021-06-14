@@ -567,6 +567,11 @@ p{
 
 /* Estilizando o rodape*/
 
+.rodape{
+    background-image: url(../img/bg-img\ top.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
 .first_section-rodape{
     display: flex;
     flex-direction: column;
@@ -576,7 +581,23 @@ p{
     background-color: #8B86F9;
     background-image: url(../img/footer-img.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: 900px;
+    background-position: center bottom -250;
+}
+
+.rodape_start{
+    background-color: #E9E6FF;
+    color: #8144E5;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 2px 10px;
+    letter-spacing: 1;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.title-rodape{
+    color: #fff;
+    margin-bottom: 35px;
 }
 /* Estilizando rodape end*/
