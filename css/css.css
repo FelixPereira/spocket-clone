@@ -510,3 +510,27 @@ p{
 
 
 /* Estilizando a quinta secção end*/
+
+/* Estilizando a sexta secção*/
+
+.sixth-section{
+    background-color: #F7FAFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+
+.testimonial-title{
+    font-size: 25px;
+ 
+}
+
+/* Estilizando a sexta secção end*/
