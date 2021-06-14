@@ -549,8 +549,12 @@ p{
 
 .testimonial-botao{
     cursor: pointer;
-    padding: 20px 40px;
+    padding: 20px 60px 20px 20px;
     border-radius: 8px;
+    background-image: url(../img/seta.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 25px;
 }
 
 .testimonial-img{
