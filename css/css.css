@@ -564,3 +564,19 @@ p{
 }
 
 /* Estilizando a sexta secção end*/
+
+/* Estilizando o rodape*/
+
+.first_section-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #8B86F9;
+    background-image: url(../img/footer-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+/* Estilizando rodape end*/
