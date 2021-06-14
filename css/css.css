@@ -392,6 +392,7 @@ p{
 .integration-brands{
     width: 60%;
     background-image: url(../img/Available\ Integrations\ -bg.svg);
+    background-repeat: no-repeat;
 }
 
 .integration-brands h3{
