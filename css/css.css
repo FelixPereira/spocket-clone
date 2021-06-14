@@ -41,6 +41,24 @@ p{
     font-weight: 900;
 }
 
+.botao{
+    color: #fff;
+    background-color: #8144e5;   
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .5s;
+    border: none;
+}
+
+.botao:hover{
+    background-color: #7431E2;
+    box-shadow: #7531e231 1px 1px 3px 2px;
+    transition: .5s;
+}
+
 /* End presets*/
 
 /* Estilizando  a primeira secção*/
@@ -225,6 +243,10 @@ p{
 .second-section{
     padding-top: 100px;
     padding-bottom: 100px;
+    background-image: url(../img/bg\ img-button.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+
 }
 
 .second_section-content{
@@ -270,8 +292,12 @@ p{
 
 .third-section{
     background-color: #F7FAFF;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
+
+    background-image: url(../img/bg-img\ top.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 .drop-process{
@@ -335,6 +361,9 @@ p{
 .fourth-section{
     padding-top: 100px;
     padding-bottom: 100px;
+    background-image: url(../img/bg\ img-button.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 .drop_title{
