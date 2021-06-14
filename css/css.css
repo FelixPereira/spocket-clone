@@ -379,10 +379,20 @@ p{
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
+
+    background-image: url(../img/Available\ Integrations\ -bg.svg);
+    background-repeat: no-repeat;
+    background-position: left 200px center;
+    background-size: 660px;
+   
 }
 
 .integration-text{
     width: 40%;
+
+   /* background-image: url(../img/Available\ Integrations\ -bg.svg);
+    background-repeat: no-repeat;
+    background-position: left 200px center; */
 }
 
 .integration-title{
@@ -391,8 +401,7 @@ p{
 
 .integration-brands{
     width: 60%;
-    background-image: url(../img/Available\ Integrations\ -bg.svg);
-    background-repeat: no-repeat;
+
 }
 
 .integration-brands h3{
@@ -417,6 +426,7 @@ p{
     border-radius: 5px;
     box-shadow: 0px 0px 30px 1px #363f4e18;
     transition: .5s;
+    background-color: #fff;
 
 }
 
