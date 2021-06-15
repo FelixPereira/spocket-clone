@@ -567,11 +567,7 @@ p{
 
 /* Estilizando o rodape*/
 
-.rodape{
-    background-image: url(../img/bg-img\ top.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-}
+
 .first_section-rodape{
     display: flex;
     flex-direction: column;
