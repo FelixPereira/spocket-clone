@@ -530,6 +530,10 @@ p{
     margin-bottom: 50px;
     text-decoration: none;
     transition: .5s;
+    background-image: url(../img/bg-lines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .testimonial:hover{
@@ -575,10 +579,8 @@ p{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #8B86F9;
-    background-image: url(../img/footer-img.png);
+    background-image: url(../img/bg-img\ top.svg);
     background-repeat: no-repeat;
-    background-size: 900px;
-    background-position: center bottom -250;
 }
 
 .rodape_start{
