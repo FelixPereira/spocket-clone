@@ -28,7 +28,7 @@ p{
 
 .btn:hover{
     background-color: #7431E2;
-    box-shadow: #7531e231 1px 1px 3px 2px;
+    box-shadow: #7531e204 1px 1px 3px 2px;
     transition: .5s;
 }
 
@@ -68,6 +68,13 @@ p{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #7431E2;
+    z-index: 1;
 
 }
 
@@ -103,6 +110,7 @@ p{
 
 .first-container{
     background-color: #F7FAFF;
+    padding-top: 80px;
 }
 
 .cabecalho_menu-item-cta a{
@@ -588,6 +596,7 @@ p{
     background-image: url(../img/footer-img.png);
     background-size: 800px;
     background-position: center ;
+
 }
 
 
