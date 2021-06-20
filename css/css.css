@@ -33,7 +33,7 @@ p{
 }
 
 .container{
-    padding: 0 calc((100% - 1200px) / 2);
+    padding: 0 calc((100% - 1150px) / 2);
 }
 
 .title{
@@ -635,5 +635,58 @@ p{
     width: 150px;
     right: 0;
     top: 49%;
+}
+
+.second_section-rodape{
+    background-color: 003757;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape_link-area{
+    width: 25%;
+}
+
+.rodape-links{
+    list-style: none;
+}
+
+.rodape-links li{
+    margin-bottom: 20px;
+}
+
+.rodape-links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ccd2f1;
+    transition: .5s;
+}
+
+.rodape-links a:hover{
+    color: #fff;
+    transition: .5s;
+}
+
+
+.title-rodape2{
+ color: #fff;
+ font-size: 16px;
+ font-weight: 700;
+ margin-bottom: 20px;
+}
+
+.rodape-info{
+    flex-direction:
+}
+
+.rodape-logo{
+   
+}
+
+.rodape-info p{
+    color: #ccd2f1;
 }
 /* Estilizando rodape end*/
