@@ -640,17 +640,17 @@ p{
 .second_section-rodape{
     background-color: 003757;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
 
 .rodape_link-area{
-    width: 20%;
+    width: 25%;
 }
 
 .rodape-info{
-    width: 40%;
+    width: 30%;
 }
 
 .rodape-links{
@@ -702,5 +702,38 @@ p{
 .rodape-destaque{
     color: #fff;
     font-weight: 600;
+}
+
+.app{
+    
+    display: flex;
+
+}
+
+.app img{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #031018;
+}
+
+.copyright small{
+    color: #fff;
+}
+
+.copyright span{
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.copyright span::after{
+    content: ".";;
 }
 /* Estilizando rodape end*/
