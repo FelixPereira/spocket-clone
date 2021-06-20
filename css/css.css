@@ -171,13 +171,13 @@ p{
     margin-left: -15px;
     padding: 25px 40px;
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
 }
 .btn-submit:hover{
     cursor: pointer;
 }
 .input-email{
-    width: 50%;
+    width: 60%;
     border: #ccc solid 1px;
     box-shadow: #7531e231 1px 1px 15px 2px;
     border-radius: 10px;
@@ -573,30 +573,39 @@ p{
 /* Estilizando o rodape*/
 
 
+.rodape{
+
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
 .first_section-rodape{
     padding-top: 100px;
     padding-bottom: 130px;
     background-color: #8B86F9;
-    background-image: url(../img/bg-img\ top.svg);
     background-repeat: no-repeat;
     position: relative;
+    background-image: url(../img/footer-img.png);
+    background-size: 800px;
+    background-position: center ;
 }
 
+
+.first_section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    background-image: url(../img/footer-img.png); */
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center ;
+
+}
 
 .rodape_img-1{
     position: absolute;
     width: 200px;
     top: -18%;
-}
-.first_section-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../img/footer-img.png);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: center ;
-
 }
 
 
