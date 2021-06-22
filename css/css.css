@@ -770,6 +770,27 @@ p{
     font-size: 14px;
 }
 
+.rodape-contact li:first-child{
+    width: 22%;
+}
+
+.rodape-contact li:last-child{
+    width: 30%;
+}
+
+
+.rodape-contact li img{
+    margin-right: 20px;
+    vertical-align: middle;
+    transition: .5s;
+}
+
+
+.rodape-contact li img:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+}
+
 
 .rodape-contact a{
     text-decoration: none;
