@@ -750,4 +750,35 @@ p{
 .copyright span::after{
     content: ".";;
 }
+
+
+.rodape_section-last{
+    background-color: #003757;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.rodape-contact{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.rodape-contact li{
+    color: #9DA5B8;
+    font-size: 14px;
+}
+
+
+.rodape-contact a{
+    text-decoration: none;
+    color: #9DA5B8;
+    transition: .5s;
+}
+
+.rodape-contact a:hover{
+    color: #fff;
+    transition: .5s;
+}
 /* Estilizando rodape end*/
